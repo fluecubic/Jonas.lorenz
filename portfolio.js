@@ -1,2 +1,6 @@
 var blmchnpfrdchnimg = document.getElementById("blmchnpfrdchnimg");
-blmchnpfrdchnimg.onclick = windowopen(url="https://fluecubic.github.io/Bluemchen-Pferdchen_Club/")
+function openit() {
+    console.log("openit");
+   window.open("https://fluecubic.github.io/Bluemchen-Pferdchen_Club/"); 
+}
+blmchnpfrdchnimg.onclick = openit;
