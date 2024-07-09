@@ -132,8 +132,8 @@ h2{
     width: 477px;
 }
 #psswrtchckrimg:hover{
-    width: 180px;
-    height: 520px;
+    width: 520px;
+    height: 180px;
 }
 #psswrtchckr{
     display: flex;
