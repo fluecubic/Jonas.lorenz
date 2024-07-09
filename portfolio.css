@@ -131,3 +131,11 @@ h2{
     height: 716px;
     width: 477px;
 }
+#psswrtchckrimg:hover{
+    width: 180px;
+    height: 520px;
+}
+#psswrtchckr{
+    display: flex;
+  flex-direction: row;
+}
