@@ -17,6 +17,7 @@ h1,p,a,h3,h2,h4,h2,h1{
 }
 body{
     margin: 0px;
+    width: 100%;
 }
 
 #hallo{
@@ -64,23 +65,17 @@ p{
 #htmlimg{
     width:300px;
 }
-#htmlimg:hover{
-    width:300px;
-}
+
 #jsimg{
     width:300px;
     margin-top: 80px;
     
 }
-#jsimg:hover{
-    width:300px;
-}
+
 #cssimg{
     width:300px; 
 }
-#cssimg:hover{
-    width:300px; 
-}
+
 #html, #js, #css{
     justify-content:center;
 }
@@ -106,6 +101,7 @@ h1{
 }
 hr{
     margin-bottom: 150px;
+    width: 100%;
 }
 h2{
     font-size: 50px;
@@ -117,25 +113,70 @@ h2{
 #blmchnpfrdchntxt{
     margin-left: 50px;
 }
-#blmchnpfrdchnimg:hover{
-    width: 758px;
-    height: 2110px;
-    border-radius: 20px;
-}
+
 #blmchnpfrdchnimg{
-    width: 728px;
-    height: 2080px;
+    width: 941px;
+    height: 945px;
     border-radius: 20px;
 }
 #jonas{
     height: 716px;
     width: 477px;
 }
-#psswrtchckrimg:hover{
-    width: 520px;
-    height: 180px;
-}
+
 #psswrtchckr{
     display: flex;
   flex-direction: row;
+}
+
+@media  (max-width: 412px) {
+
+   #select{
+    height: 100px;
+   }
+   a{
+    font-size: 60px;
+    margin-left: 2%;
+    margin-right: 2%;
+   } 
+   #container{
+    flex-direction:column;
+    justify-content:center;
+   }
+   #jonas{
+    width: 910px;
+    height: 716;
+   }
+   #containertext{
+    justify-content: center;
+    margin-left: 50%;
+   }
+   #hallo{
+    font-size: 150px;
+   }
+   #werden{
+    font-size: 160px;
+   }
+   #Skills{
+    font-size: 755%;
+   }
+   #skills{
+    flex-direction: column;
+    margin-left: 50%;
+   }
+   #htmlimg, #jsimg, #cssimg{
+    width: 500px;
+    margin-bottom: 50px;
+   }
+   #htmltxt, #jstxt, #csstxt{
+    font-size: 100px;
+   }
+   #blmchnpfrdchn{
+    flex-direction: column;
+   }
+   p{
+    font-size: 70px;
+    width: 350%;
+   }
+   
 }
