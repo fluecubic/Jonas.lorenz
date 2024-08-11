@@ -7,3 +7,4 @@ function open(url) {
 
 blmchnpfrdchnimg.onclick = open("https://fluecubic.github.io/Bluemchen-Pferdchen_Club/");
 psswrtchckrimg.onclick = open("https://fluecubic.github.io/Passwortchecker/");
+Kalenderimg.onclick = open("https://fluecubic.github.io/kalender/");
