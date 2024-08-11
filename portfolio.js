@@ -1,5 +1,7 @@
 let blmchnpfrdchnimg = document.getElementById("blmchnpfrdchnimg");
 let psswrtchckrimg = document.getElementById("psswrtchckrimg");
+let Kalenderimg = document.getElementById("Kalenderimg");
+
 
 function open(url) {
     window.open(url)
