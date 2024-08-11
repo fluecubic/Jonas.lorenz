@@ -10,11 +10,10 @@ function opensite(url) {
 blmchnpfrdchnimg.addEventListener("onclick",function() {
     opensite("https://fluecubic.github.io/Bluemchen-Pferdchen_Club/");
 })  
-blmchnpfrdchnimg.addEventListener("onclick",function() {
-    opensite("https://fluecubic.github.io/Bluemchen-Pferdchen_Club/");
+psswrtchckrimg.addEventListener("onclick",function() {
+    opensite("https://fluecubic.github.io/Passwortchecker/");
+})  
+Kalenderimg.addEventListener("onclick",function() {
+    opensite("https://fluecubic.github.io/kalender/");
 })  
 
-
-
-psswrtchckrimg.  opensite("https://fluecubic.github.io/Passwortchecker/");
-Kalenderimg.  opensite("https://fluecubic.github.io/kalender/");
