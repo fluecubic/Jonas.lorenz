@@ -1,7 +1,4 @@
-@font-face {
-    font-family:sig;
-    src: url(fonts/SignikaNegative-Regular.ttf);
-}
+
 @font-face {
     font-family:chakra;
     src: url(fonts/ChakraPetch-SemiBold.ttf);
@@ -128,9 +125,15 @@ h2{
     display: flex;
   flex-direction: row;
 }
+#psswrtchckrimg{
+    margin-right: 50px;
+}
 #Kalender{
     display: flex;
     flex-direction: row;  
+}
+#Kalenderimg{
+    margin-right: 50px;
 }
 
 @media  (max-width: 412px) {

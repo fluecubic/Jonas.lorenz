@@ -1,19 +1,21 @@
 let blmchnpfrdchnimg = document.getElementById("blmchnpfrdchnimg");
 let psswrtchckrimg = document.getElementById("psswrtchckrimg");
-let Kalenderimg = document.getElementById("Kalenderimg");
+let kalenderimg = document.getElementById("Kalenderimg");
 
 
 function opensite(url) {
     window.open(url)
 }
 
-blmchnpfrdchnimg.addEventListener("onclick",function() {
+blmchnpfrdchnimg.addEventListener("click", function() {
     opensite("https://fluecubic.github.io/Bluemchen-Pferdchen_Club/");
-})  
-psswrtchckrimg.addEventListener("onclick",function() {
+});
+
+psswrtchckrimg.addEventListener("click", function() {
     opensite("https://fluecubic.github.io/Passwortchecker/");
-})  
-Kalenderimg.addEventListener("onclick",function() {
-    opensite("https://fluecubic.github.io/kalender/");
-})  
+});
+
+kalenderimg.addEventListener("click", function() {
+     opensite("https://fluecubic.github.io/kalender/");
+});
 
