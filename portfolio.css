@@ -87,7 +87,6 @@ a:hover{
     margin: 0px;
 }
 #select{
-
     width:100% ;
     height:50px;
     padding-top: 20px;
@@ -145,6 +144,9 @@ h2{
 #Transmorseimg{
     margin-right: 50px;
     border-radius: 10px;
+}
+.skillimg{
+ margin-right: 20px;
 }
 @media  (max-width: 412px) {
 
