@@ -1,3 +1,4 @@
+
 texttomorse = {
     "A": "#_###",
     "B": "###_#_#_#",
@@ -37,14 +38,14 @@ texttomorse = {
     "0": "###_###_###_###_###",
     " ": "_"
 }
-
-output = ""
 ending = "___"
+output = ""
 user = input("Gib hier  Text ein>>>")
+if user == "help" or "info":
+   output = "### = lang, # = kurz, _ = Pause"
+else:
+ for letter in user.upper():  
+  if letter in texttomorse:
+   output += texttomorse[letter] + ending
 
-for letter in user.upper():  
-    if letter in texttomorse:
-        output += texttomorse[letter] + ending
-  
-    
 print(output)
