@@ -28,8 +28,7 @@ body{
 }
 #werden{
     margin:0px;
-    font-size:120px ;
-   
+    font-size:100px ;
     border-radius: 20px; 
 }
 img{
@@ -72,9 +71,11 @@ p{
     width:300px; 
 }
 
-#html, #js, #css{
-    justify-content:center;
+#pyimg{
+    width:300px; 
 }
+
+
 a{
     font-size: 40px;
     margin: 25px;
@@ -95,7 +96,7 @@ a:hover{
     background-color: black;
 }
 h1{
-    font-size: 100px;
+    font-size: 80px;
     margin: 0px;
 }
 hr{
@@ -114,8 +115,8 @@ h2{
 }
 
 #blmchnpfrdchnimg{
-    width: 941px;
-    height: 945px;
+    width: 624px;
+    height: 624px;
     border-radius: 20px;
 }
 #jonas{
